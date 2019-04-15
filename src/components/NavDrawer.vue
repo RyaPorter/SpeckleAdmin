@@ -22,15 +22,15 @@
         <md-icon>3d_rotation</md-icon>
         <span class="md-list-item-text">Viewer</span>
       </md-list-item>
-      <md-divider md-inset></md-divider>
-      <md-list-item to='/carbon'>
-        <md-icon>local-florist</md-icon>
+      <md-list-item :href="carbonLink">
+        <md-icon>local_florist</md-icon>
         <span class="md-list-item-text">Arup Carbon</span>
       </md-list-item>
-      <md-list-item to='/digital-report'>
+      <md-list-item :href="digReportLink">
         <md-icon>create</md-icon>
         <span class="md-list-item-text">Arup Digital Report</span>
       </md-list-item>
+      <md-divider md-inset></md-divider>
       <md-list-item to='/profile'>
         <md-icon>face</md-icon>
         <span class="md-list-item-text">Profile</span>
@@ -58,7 +58,16 @@
 </template>
 <script>
 export default {
-  name: 'SiteNavigation'
+  name: 'SiteNavigation',
+  
+  computed: {
+    digReportLink(){
+      return location.origin + `/digital-report/`
+    },
+    carbonLink(){
+      return location.origin + `/carbon/`
+    }
+  }
 }
 
 </script>
