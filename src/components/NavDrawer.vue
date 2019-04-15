@@ -75,7 +75,7 @@ export default {
 $SpeckleBlue: #448aff;
 
 .nav-sidebar {
-  width: 200px !important;
+  width: 225px !important;
   /*background-color: $SpeckleBlue !important;*/
   /*background-color: ghostwhite !important;*/
   /*padding-top: 30px;*/
