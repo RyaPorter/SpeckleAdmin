@@ -20,11 +20,7 @@ import VueTimeago from 'vue-timeago'
 Vue.use( VueTimeago, { locale: 'en' } )
 
 // Set up the server route.
-let server = localStorage.getItem( 'server' )
-if ( server )
-  Store.state.server = server
- else
-   Store.state.server = `${window.location.origin}/api`
+Store.state.server = `${window.location.origin}/api`
 
 
 // set default server

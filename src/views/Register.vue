@@ -9,11 +9,6 @@
           </md-card-header-text>
         </md-card-header>
         <md-card-content>
-          <md-field>
-            <md-icon>{{serverOk ? "check" : "chevron_right"}}</md-icon>
-            <label>Server API address</label>
-            <md-input type="url" v-model='server' name='server' @blur='checkServer'></md-input>
-          </md-field>
           <md-field :class="getValidationClass('email')">
             <label>Email adress</label>
             <md-input v-model='email' name='email'></md-input>
