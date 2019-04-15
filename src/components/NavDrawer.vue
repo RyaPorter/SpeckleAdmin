@@ -23,6 +23,14 @@
         <span class="md-list-item-text">Viewer</span>
       </md-list-item>
       <md-divider md-inset></md-divider>
+      <md-list-item to='/carbon'>
+        <md-icon>local-florist</md-icon>
+        <span class="md-list-item-text">Arup Carbon</span>
+      </md-list-item>
+      <md-list-item to='/digital-report'>
+        <md-icon>create</md-icon>
+        <span class="md-list-item-text">Arup Digital Report</span>
+      </md-list-item>
       <md-list-item to='/profile'>
         <md-icon>face</md-icon>
         <span class="md-list-item-text">Profile</span>
