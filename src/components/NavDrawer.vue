@@ -22,6 +22,7 @@
         <md-icon>3d_rotation</md-icon>
         <span class="md-list-item-text">Viewer</span>
       </md-list-item>
+      <md-divider md-inset></md-divider>
       <md-list-item target="_blank" :href="carbonLink">
         <md-icon>local_florist</md-icon>
         <span class="md-list-item-text">Arup Carbon</span>
